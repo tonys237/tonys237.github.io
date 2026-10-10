@@ -5,7 +5,7 @@ The Kot Collective website (GitHub Pages, plain HTML and CSS). Live at https://t
 | path | what |
 |---|---|
 | `/` | studio page with the Last Words: Moto Crash card |
-| `/privacy/` | the game's privacy policy (DRAFT banner until approved) |
+| `/privacy/` | the game's privacy policy (approved by Tony, 10 October 2026) |
 | `/support/` | contact and FAQ |
 | `/app-ads.txt` | authorised ad sellers, served as plain text from the site root |
 
