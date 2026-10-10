@@ -1,0 +1,5 @@
+# Kot Collective
+# Authorised sellers for Last Words: Moto Crash (iOS). The network lines are copied from the ad networks' own dashboards:
+#   Unity Ads: Unity Monetization dashboard > Setup > Organization Settings > App-ads.txt > Show full list
+#   LevelPlay / ironSource Ads: the LevelPlay dashboard's app-ads.txt list
+OWNERDOMAIN=tonys237.github.io

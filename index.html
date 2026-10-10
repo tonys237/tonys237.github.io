@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kot Collective</title>
+<meta name="description" content="Kot Collective makes Last Words: Moto Crash, a one-thumb motorbike game for iPhone.">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="icon" type="image/png" href="/assets/last-words-icon.png">
+</head>
+<body>
+<header class="sky">
+  <div class="wrap">
+    <a class="brand" href="/">Kot Collective</a>
+    <nav><a href="/privacy/">Privacy</a><a href="/support/">Support</a></nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <h1>Kot Collective</h1>
+    <p class="lede">A small independent studio in the United Kingdom, making funny games for your phone.</p>
+
+    <section class="card" aria-label="Last Words: Moto Crash">
+      <img class="icon" src="/assets/last-words-icon.png" alt="Last Words: Moto Crash app icon" width="112" height="112">
+      <div>
+        <h2>Last Words: Moto Crash</h2>
+        <p>Weave through traffic at full speed, kick rival riders off their bikes, crash spectacularly and get roasted for exactly how you went down. A one-thumb arcade game for iPhone.</p>
+        <!-- The App Store badge stays hidden until LIVE_STORE_URL (below) holds the game's App Store link.
+             The badge artwork is Apple's own: download it from Apple's Marketing Resources and save it as
+             /assets/app-store-badge.svg before setting the link. -->
+        <a id="store-badge" class="badge" href="#" hidden><img src="/assets/app-store-badge.svg" alt="Download on the App Store"></a>
+        <span id="store-soon" class="soon">Coming soon to the App Store</span>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 Kot Collective</span>
+    <span><a href="/privacy/">Privacy</a><a href="/support/">Support</a></span>
+  </div>
+</footer>
+
+<script>
+  // Set this to the game's App Store link once it is live; the badge then replaces "Coming soon".
+  var LIVE_STORE_URL = "";
+  if (LIVE_STORE_URL) {
+    var b = document.getElementById("store-badge");
+    b.href = LIVE_STORE_URL; b.hidden = false;
+    document.getElementById("store-soon").hidden = true;
+  }
+</script>
+</body>
+</html>
