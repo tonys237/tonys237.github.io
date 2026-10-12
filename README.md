@@ -8,6 +8,7 @@ The Kot Collective website (GitHub Pages, plain HTML and CSS). Live at https://t
 | `/privacy/` | the game's privacy policy (approved by Tony, 10 October 2026) |
 | `/support/` | contact and FAQ |
 | `/app-ads.txt` | authorised ad sellers, served as plain text from the site root |
+| `/config/lastwords-v1.json` | the game's remote settings (launch kill switches; how to change it: the game repo's `Docs/RemoteConfig.md`) |
 
 No frameworks, no tracking, no cookies, no analytics, no web fonts or other files loaded from anyone else's server.
 
