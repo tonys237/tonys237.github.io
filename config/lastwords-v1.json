@@ -1,10 +1,12 @@
 {
   "schema": 1,
-  "config_version": 1,
+  "config_version": 2,
   "ads_enabled": true,
   "rewarded_enabled": true,
   "interstitial_enabled": true,
   "revive_max": 2,
+  "revive_video_max": 2,
+  "revive_coin_max": 2,
   "revive_coins_1": 250,
   "revive_coins_2": 600,
   "revive_coins_3": 1200,
